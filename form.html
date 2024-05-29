@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <form>
+        <h1>Registration Form</h1>
+        <br>
+        <h3>Register yourself to attend the seminar.</h3>
+
+        <!--Basic info section-->
+        <p>Enter your first name:</p><input type="text" placeholder="First Name" name="" id="">
+        <p>Enter your last name:</p><input type="text" placeholder="Last Name" name="" id="">
+        <p>Enter your email:</p><input type="email" placeholder="email" name="" id="">
+        <p>Date of Birth:</p><input type="date" name="Date" id="">
+        <p>Add your image</p><input type="file" name="" id="">
+
+        <!--Account type section-->
+        <p>Your account type:</p>
+        <input type="radio" id="personal" name="account">
+        <label for="personal">For personal use</label><br>
+        <input type="radio" id="business" name="account">
+        <label for="business">For business</label><br>
+        <input type="radio" id="team" name="account">
+        <label for="team">For team</label>
+
+        <!--Interested courses section-->
+        <p>Which courses are you interested:</p>
+        <input type="checkbox" id="courses" name="courses" id="">
+        <label for="courses">Web development(Front-End)</label><br>
+        <input type="checkbox" id="courses" name="courses" id="">
+        <label for="courses">Web Development(Back-End)</label><br>
+        <input type="checkbox" id="courses" name="courses" id="">
+        <label for="courses">App Development</label><br>
+        <input type="checkbox" id="courses" name="courses" id="">
+        <label for="courses">Cyber Security</label><br>
+
+        <!--Password section-->
+        <p>Enter a password:</p>
+        <input type="password" placeholder="Password" name="password" id="">
+        <p>Confirm password:</p>
+        <input type="password" placeholder="Password" name="password" id=""><br><br>
+        <input type="radio" name="term" id="term">
+        <label for="term"></label>Agree with the the terms and rules.<br><br>
+        <input type="submit" value="submit">
+    </form>
+
+
+</body>
+
+</html>
